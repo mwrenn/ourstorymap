@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import fuelSavings from './fuelSavingsReducer';
+import storyMap from './storyMapReducer';
 import {routerReducer} from 'react-router-redux';
 
 const rootReducer = combineReducers({
-  fuelSavings,
+  storyMap,
   routing: routerReducer
 });
 

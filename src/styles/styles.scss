@@ -3,29 +3,23 @@ $vin-blue: #5bb7db;
 $vin-green: #60b044;
 $vin-red: #ff0000;
 
-/* Styles */
+html {
+  height: 100%;
+}
+
 body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
-  color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
 }
 
-td {
-	padding: 12px;
+/* Styles */
+#app, #app-container {
+  height: 100%;
 }
 
-h2 {
-	color: $vin-blue;
+.story-map {
+  width: 100%;
+  height: 100%;
 }
-
-.savings { color: $vin-green; }
-.loss { color: $vin-red; }
-input.small { width: 46px; }
-td.fuel-savings-label { width: 175px; }
